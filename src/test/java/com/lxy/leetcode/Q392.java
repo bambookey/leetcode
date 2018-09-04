@@ -14,25 +14,25 @@ public class Q392 {
     public static boolean isSubsequence(String s, String t) {
         int slen = s.length();
         int tlen = t.length();
-        if(slen > tlen) {
+        if (slen > tlen) {
             return false;
         }
 
         int ps = 0;
         int pt = 0;
         int found = 0;
-        for(;ps<slen;ps++) {
+        for (; ps < slen; ps++) {
             char cs = s.charAt(ps);
-            for(;pt<tlen;pt++) {
+            for (; pt < tlen; pt++) {
                 char ct = t.charAt(pt);
-                if(cs==ct) {
+                if (cs == ct) {
                     found++;
                     pt++;
                     break;
                 }
             }
         }
-        if(found == slen) {
+        if (found == slen) {
             return true;
         }
         return false;
