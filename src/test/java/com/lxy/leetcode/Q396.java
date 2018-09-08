@@ -2,6 +2,7 @@ package com.lxy.leetcode;
 
 /**
  * 画一画就看出来了
+ * 固定数组，不一定系数的时候可以整体观察，找到解决方法
  * <p>
  * Created by lixiangyu on 2018/9/8.
  */
