@@ -1,5 +1,7 @@
 package com.lxy.leetcode;
 
+import java.lang.reflect.InvocationTargetException;
+
 /**
  * 分治思想
  *
