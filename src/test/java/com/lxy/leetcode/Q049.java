@@ -1,6 +1,5 @@
 package com.lxy.leetcode;
 
-import java.lang.reflect.Array;
 import java.util.*;
 
 /**
@@ -8,7 +7,9 @@ import java.util.*;
  */
 public class Q049 {
     public static void main(String[] args) {
-
+        int[] c = new int[26];
+        c[0] = 1;
+        System.out.println(Arrays.toString(c));
     }
 
     public List<List<String>> groupAnagrams(String[] strs) {
