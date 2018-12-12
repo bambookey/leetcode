@@ -11,7 +11,7 @@ public class Q063 {
     }
 
     /**
-     * 相比之下leetcode大佬的代码比我的思路要清晰许多，额外分配内存空间会使代码可读性大大提高  
+     * 相比之下leetcode大佬的代码比我的思路要清晰许多，额外分配内存空间会使代码可读性大大提高
      *
      * @param obstacleGrid
      * @return
