@@ -9,7 +9,6 @@ package com.lxy.leetcode;
  */
 public class Q397 {
     public static void main(String[] args) {
-        //System.out.println(2147483647 + 1);
         System.out.println(integerReplacement(2147483647));
     }
 
